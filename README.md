@@ -1,0 +1,1 @@
+This project is part of The Odin Project's lesson on Foundaitonal HTML and CSS.

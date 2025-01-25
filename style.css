@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 /* Applies formatting to regular text in all panels */
 p {
     margin: 0;
@@ -13,6 +14,7 @@ p {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 /* Organizes first panel */
 .panel-one {
     background-color: #1F2937;
@@ -22,6 +24,7 @@ p {
     padding-right: 130px;
     padding-bottom: 160px;
 }
+
 /* Organizes top left logo and top right links */
 .header {
     display: flex;
@@ -29,10 +32,12 @@ p {
     flex-grow: 1;
     flex-basis: 150px;
 }
+
 /* Arranges first panel as a flex row to separate words from image evenly */
 .one-middle {
     display: flex;
 }
+
 /* Organizes title, text, and sign up button as columns within its own flexbox */
 .body-one {
     width: 50%;
@@ -40,10 +45,12 @@ p {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 /* Avoid pesky auto margin */
 h1.title {
     margin: 0;
 }
+
 /* Sizes and pads out buttons on first and fourth panels */
 button {
     width: 80px;
@@ -56,6 +63,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
 /* Aligns and sizes first panel image */
 .one-middle img {
     width: 600px;
@@ -63,6 +71,7 @@ button {
     align-self: center;
     padding-left: 40px;
 }
+
 /* Aligns and colors logo */
 .logo {
     font-size: 24px;
@@ -70,12 +79,14 @@ button {
     padding-top: 18px;
     flex-grow: 0;
 }
+
 /* Adds size, color, and weight to title */
 .title {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
+
 /* Styles links, removing dots and adds space between them */
 .links {
     list-style: none;
@@ -83,12 +94,14 @@ button {
     flex-direction: row;
     gap: 16px;
 }
+
 /* Removes underline and colors/sizes links */
 a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
+
 /* Centers panel two and organizes as a flex column */
 .panel-two {
     display: flex;
@@ -100,12 +113,14 @@ a {
     padding-right: 150px;
     padding-bottom: 75px;
 }
+
 /* Styles panel-two headline */
 h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
+
 /* Arranges four squares with images */
 .four-squares {
     display: flex;
@@ -114,6 +129,7 @@ h2 {
     width: 800px;
     justify-content: space-evenly;
 }
+
 /* sizes and styles individual squares */
 .square {
     height: 125px;
@@ -121,6 +137,7 @@ h2 {
     border-radius: 10px;
     border: 2px solid blue;
 }
+
 /* aligns subtext with squares */
 .subtexts {
     display: flex;
@@ -129,6 +146,7 @@ h2 {
     justify-content: space-evenly;
     font-size: 14px;
 }
+
 /* Centers subtext text and wraps */
 .subtext {
     height: 115px;
@@ -137,33 +155,42 @@ h2 {
     padding-top: 10px;
     text-align: center;
 }
+
 /* Arranges panel three as flexbox column and centers content */
 .panel-three {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
-    padding-top: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
+
 /* Styles quote and centers text */
 .quote {
+    width: 65%;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-grow: 0;
+    flex-basis: 250px;
 }
+
 /* Styles quoted character and sets text to bottom right */
 .quoted {
     display: flex;
     align-self: flex-end;
     font-size: 24px;
     font-weight: 900;
-    padding-top: 30px;
+    padding-right: 200px;
 }
+
 /* Arranges panel four as flexbox column and centers content */
 .panel-four {
     display: flex;
@@ -174,6 +201,7 @@ h2 {
     padding-right: 200px;
     padding-bottom: 120px;
 }
+
 /* Sizes and styles smaller panel within panel four */
 .smaller-panel {
     display: flex;
@@ -183,6 +211,7 @@ h2 {
     background-color: #3882F6;
     border-radius: 10px;
 }
+
 /* Separates text from button and organizes both text strings into columns */
 .call-to-action {
     display: flex;
@@ -190,6 +219,7 @@ h2 {
     flex-wrap: wrap;
     padding-left: 50px;
 }
+
 /* Styles small panel title text */
 .call-to-action h3 {
     justify-content: stretch;
@@ -197,6 +227,7 @@ h2 {
     margin: 0;
     color: #F9FAF8;
 }
+
 /* Styles button in small panel */
 .smaller-panel button {
     width: 80px;
@@ -211,6 +242,7 @@ h2 {
     color: #F9FAF8;
     margin-left: 100px;
 }
+
 /* Styles and centers footer */
 .footer {
     width: 100%;
